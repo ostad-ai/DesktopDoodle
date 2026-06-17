@@ -1,1 +1,1 @@
-"# Desktop Doodle"
+# Desktop Doodle
