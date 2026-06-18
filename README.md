@@ -66,17 +66,12 @@ Desktop doodle works in two modes:
   <tr>
 
 <td><img src="Media/ver-0-0.jpg" alt="A snapshot of the app: DesktopDoodle, version 0.0" width="400"/>
-Figure 1: A snapshot of the app: DesktopDoodle, version 0.0, while counting down.</td>
+Figure 1: A snapshot of the app: DesktopDoodle, version 0.0, while painting.</td>
     
 <td><img src="Media/ver-0-0-alt.jpg" alt="Another snapshot of the app: DesktopDoodle, version 0.0" width="400"/>
-Figure 2: Another snapshot of the app: DesktopDoodle, version 0.0, when alarming.</td>
+Figure 2: Another snapshot of the app: DesktopDoodle, version 0.0, while defining data pipeline.</td>
 
   </tr>
 </table>
-
-
-
-## 🖼️ Screenshots
-
 
 ---
