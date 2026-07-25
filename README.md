@@ -128,10 +128,6 @@ Figure 3: A snapshot of the app: DesktopDoodle, version 0.2, while painting with
 
 ---
 
-**Version 0.2** – Built with ❤️ and a touch of stardust.
-
----
-
 ## This archive includes the executable program: **DesktopDoodle.exe**, which is suitable for **Windows 10** and over. You should click on the executable to run.
-[Download the archive for win64](https://drive.google.com/file/d/1i6UgcYlg3wCaJYCEgb-PMWEHR8eQhSvo/view?usp=sharing)
+[Download the archive for win64](https://drive.google.com/file/d/13qtr8tR1JzZ0L_aj3djavwk7r3YIrUCT/view?usp=sharing)
 ---
