@@ -129,5 +129,5 @@ Figure 3: A snapshot of the app: DesktopDoodle, version 0.2, while painting with
 ---
 
 ## This archive includes the executable program: **DesktopDoodle.exe**, which is suitable for **Windows 10** and over. You should click on the executable to run.
-[Download the archive for win64](https://drive.google.com/file/d/13qtr8tR1JzZ0L_aj3djavwk7r3YIrUCT/view?usp=sharing)
+[Download the archive for win64](https://drive.google.com/file/d/1rd8LzebpUo5rEMOaezMhSNjJ0xczfeg3/view?usp=sharing)
 ---
