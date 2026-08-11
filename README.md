@@ -24,10 +24,26 @@ Figure 2: A snapshot of the new version of the app: DesktopDoodle, version 0.1, 
 <tr>
 <td><img src="Media/ver-0-2.jpg" alt="A snapshot of the app: DesktopDoodle, version 0.2" width="400"/>
 Figure 3: A snapshot of the app: DesktopDoodle, version 0.2, while painting with lots of pens, two layers, and import.</td>
+
+<td><img src="Media/ver-0-3.jpg" alt="A snapshot of the app: DesktopDoodle, version 0.3" width="400"/>
+Figure 3: A snapshot of the app: DesktopDoodle, version 0.3, while showing the new presentation mode.</td>
 </tr>
 </table>
 
 ---
+
+## 🆕 What's New in Version 0.3
+
+- **📋 Playlist & Presentation Mode** – Create slideshows from images and `.doodle` files. Navigate with keyboard arrows, auto‑play with custom durations, and present full‑screen.
+- **🎨 Live Annotation Tools** – While presenting, draw with a pen, erase, change colours and sizes, and save your marks permanently back to the canvas.
+- **🎯 Pointer Tool** – A neutral cursor for pointing at slide details without accidentally drawing.
+- **💾 Layered Save/Load** – New `.doodle` project format preserves both foreground and background layers, their opacities, and canvas settings.
+- **🖼️ Fit to Canvas & Keep Aspect Ratio** – Scale slides to fill the window, with or without preserving proportions.
+- **🧠 Smart Resize with Skew** – Non‑uniform scaling that fits the canvas perfectly after a shear transformation.
+- **🔒 Rock‑Solid Toolbar** – Dynamic‑width buttons (pen size, eraser size, pen type, font, angle) are locked in place; the toolbar no longer shifts or causes scrollbar ghosts.
+- **🗂️ Playlist Management** – Add, reorder, edit titles, set per‑slide durations, and save/load `.ddplaylist` files.
+- **⌨️ Presentation Shortcuts** – Arrow keys to change slides, Space to play/stop, Escape to exit full‑screen.
+
 
 ## ✨ What's New in Version 0.2
 
@@ -129,5 +145,5 @@ Figure 3: A snapshot of the app: DesktopDoodle, version 0.2, while painting with
 ---
 
 ## This archive includes the executable program: **DesktopDoodle.exe**, which is suitable for **Windows 10** and over. You should click on the executable to run.
-[Download the archive for win64](https://drive.google.com/file/d/1YFCZK6yHByUE2m3nANvapPajsh2OZELI/view?usp=sharing)
+[Download the archive for win64](https://drive.google.com/file/d/1pordqsruTV3_5Pj0RbcdDRI3KTqdYfsX/view?usp=sharing)
 ---
