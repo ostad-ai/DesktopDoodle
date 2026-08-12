@@ -1,5 +1,5 @@
 # Desktop Doodle 🎨🖌️
-**Version 0.3 – Your always-on-top sketchpad with new features**
+**Desktop Doodle v0.3 introduces playlist‑based presentations, live annotation tools, a locked‑down toolbar, the new .doodle layered project format, and smart resize with skew.**
 
 **Desktop Doodle** is a lightweight, floating, always‑on‑top sketchpad for Windows.  
 Draw, erase, type text (it now supports RTL languages too), and edit images with a clean, custom‑styled interface.  
