@@ -145,5 +145,5 @@ Figure 3: A snapshot of the app: DesktopDoodle, version 0.3, while showing the n
 ---
 
 ## This archive includes the executable program: **DesktopDoodle.exe**, which is suitable for **Windows 10** and over. You should click on the executable to run.
-[Download the archive for win64](https://drive.google.com/file/d/1pordqsruTV3_5Pj0RbcdDRI3KTqdYfsX/view?usp=sharing)
+[Download the archive for win64](https://drive.google.com/file/d/1KumPVMR0tKgLt0Wc8nKbRz8AQ6i0UsT9/view?usp=sharing)
 ---
