@@ -1,8 +1,7 @@
 # Desktop Doodle 🎨🖌️
-**Notice:** There is a tiny *bug* we are working on. So, please be patient. The link to download is not avaliable now, but it will be available soon.
+**Notice:** The download link is ready now. The new version is **version 0.3a**. We had a tiny *bug* that been been removed.
 
-
-**Desktop Doodle v0.3 introduces playlist‑based presentations, live annotation tools, a locked‑down toolbar, the new .doodle layered project format, and smart resize with skew.**
+**Desktop Doodle v0.3a introduces playlist‑based presentations, live annotation tools, a locked‑down toolbar, the new .doodle layered project format, and smart resize with skew.**
 
 **Desktop Doodle** is a lightweight, floating, always‑on‑top sketchpad for Windows.  
 Draw, erase, type text (it now supports RTL languages too), and edit images with a clean, custom‑styled interface.  
@@ -148,5 +147,5 @@ Figure 3: A snapshot of the app: DesktopDoodle, version 0.3, while showing the n
 ---
 
 ## This archive includes the executable program: **DesktopDoodle.exe**, which is suitable for **Windows 10** and over. You should click on the executable to run.
-[Download the archive for win64]()
+[Download the archive for win64](https://drive.google.com/file/d/1btcUIFOgILsymCWwXe_ivLv5oI0pDMx4/view?usp=sharing)
 ---
