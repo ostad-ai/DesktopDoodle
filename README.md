@@ -15,19 +15,26 @@ Desktop doodle works in two modes:
 <table>
   <tr>
 
-<td><img src="Media/ver-0-0.jpg" alt="A snapshot of the app: DesktopDoodle, version 0.0" width="400"/>
-Figure 1: A snapshot of the app: DesktopDoodle, version 0.0, while painting.</td>
+<td><img src="Media/ver-0-0.jpg" alt="A snapshot of the app: Desktop Doodle, version 0.0" width="400"/>
+Figure 1: A snapshot of the app: Desktop Doodle, version 0.0, while painting.</td>
     
-<td><img src="Media/ver-0-1.jpg" alt="A snapshot of the new version of the app: DesktopDoodle, version 0.1" width="400"/>
-Figure 2: A snapshot of the new version of the app: DesktopDoodle, version 0.1, while defining data pipeline.</td>
+<td><img src="Media/ver-0-1.jpg" alt="A snapshot of the new version of the app: Desktop Doodle, version 0.1" width="400"/>
+Figure 2: A snapshot of the new version of the app: Desktop Doodle, version 0.1, while defining data pipeline.</td>
 
   </tr>
 <tr>
-<td><img src="Media/ver-0-2.jpg" alt="A snapshot of the app: DesktopDoodle, version 0.2" width="400"/>
-Figure 3: A snapshot of the app: DesktopDoodle, version 0.2, while painting with lots of pens, two layers, and import.</td>
+<td><img src="Media/ver-0-2.jpg" alt="A snapshot of the app: Desktop Doodle, version 0.2" width="400"/>
+Figure 3: A snapshot of the app: Desktop Doodle, version 0.2, while painting with lots of pens, two layers, and import.</td>
 
-<td><img src="Media/ver-0-3.jpg" alt="A snapshot of the app: DesktopDoodle, version 0.3" width="400"/>
-Figure 3: A snapshot of the app: DesktopDoodle, version 0.3, while showing the new presentation mode.</td>
+<td><img src="Media/ver-0-3.jpg" alt="A snapshot of the app: Desktop Doodle, version 0.3" width="400"/>
+Figure 4: A snapshot of the app: Desktop Doodle, version 0.3, while showing the new presentation mode.</td>
+</tr>
+<tr>
+<td>
+<img src="Media/ver-0-4a.jpg" alt="A snapshot of the app: Desktop Doodle, version 0.4a" width="400"/>
+Figure 5: A snapshot of the app: Desktop Doodle, version 0.4a, while showing the new slide creation tools.
+</td>
+
 </tr>
 </table>
 
