@@ -1,5 +1,6 @@
 # Desktop Doodle 🎨🖌️
-Desktop Doodle **0.4** brings a major leap in text handling and creative expression. You can now add fully editable **slide text boxes** with rich formatting — bold, italic, underline, strikeout, colors, highlights, sub/superscript, alignment, bullets, numbering, and full RTL support for Persian, Arabic, and etc. A vibrant emoji picker inserts true-color, scalable emojis directly into text, while an expanded symbol picker provides Greek letters, math symbols, and arrows. Editing is smoother with cut/copy/paste, independent undo/redo, and keyboard shortcuts like `Ctrl+]` / `Ctrl+[` for font size. The bucket tool and RTL formatting have been hardened for stability.
+Desktop Doodle **0.4a** brings a major leap in text handling and creative expression. You can now add fully editable **slide text boxes** with rich formatting — bold, italic, underline, strikeout, colors, highlights, sub/superscript, alignment, bullets, numbering, and full RTL support for Persian, Arabic, and etc. A vibrant emoji picker inserts true-color, scalable emojis directly into text, while an expanded symbol picker provides Greek letters, math symbols, and arrows. Editing is smoother with cut/copy/paste, independent undo/redo, and keyboard shortcuts like `Ctrl+]` / `Ctrl+[` for font size. The bucket tool and RTL formatting have been hardened for stability.
+ - If you have the app with version 0.4, update it to the latest version 0.4a.
 
 **Desktop Doodle** is a lightweight, floating, always‑on‑top sketchpad for Windows.  
 Draw, erase, type text (it now supports RTL languages too), and edit images with a clean, custom‑styled interface.  
@@ -198,5 +199,5 @@ Figure 3: A snapshot of the app: DesktopDoodle, version 0.3, while showing the n
 ---
 
 ## This archive includes the executable program: **DesktopDoodle.exe**, which is suitable for **Windows 10** and over. You should click on the executable to run.
-[Download the archive for win64](https://drive.google.com/file/d/1v9iBiuNtlt0smNKW2Ny6u_FbPmKIBUZH/view?usp=sharing)
+[Download the archive for win64](https://drive.google.com/file/d/13s5uh6RZCv2qF5VaqU-XMgU7bhT0jDaB/view?usp=sharing)
 ---
