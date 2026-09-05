@@ -1,7 +1,5 @@
 # Desktop Doodle 🎨🖌️
-**Notice:** The download link is ready now. The new version is **version 0.3a**. We had a tiny *bug* that been been removed.
-
-**Desktop Doodle v0.3a introduces playlist‑based presentations, live annotation tools, a locked‑down toolbar, the new .doodle layered project format, and smart resize with skew.**
+Desktop Doodle **0.4** brings a major leap in text handling and creative expression. You can now add fully editable **slide text boxes** with rich formatting — bold, italic, underline, strikeout, colors, highlights, sub/superscript, alignment, bullets, numbering, and full RTL support for Persian, Arabic, and etc. A vibrant emoji picker inserts true-color, scalable emojis directly into text, while an expanded symbol picker provides Greek letters, math symbols, and arrows. Editing is smoother with cut/copy/paste, independent undo/redo, and keyboard shortcuts like `Ctrl+]` / `Ctrl+[` for font size. The bucket tool and RTL formatting have been hardened for stability.
 
 **Desktop Doodle** is a lightweight, floating, always‑on‑top sketchpad for Windows.  
 Draw, erase, type text (it now supports RTL languages too), and edit images with a clean, custom‑styled interface.  
@@ -33,6 +31,48 @@ Figure 3: A snapshot of the app: DesktopDoodle, version 0.3, while showing the n
 </table>
 
 ---
+
+## 🎉 What’s New in Desktop Doodle 0.4
+
+### 🧾 Slide Text Boxes – A New Level of Rich Text
+- Add draggable, resizable text boxes directly on the canvas.
+- Full rich text support:
+  - Bold, italic, underline, strikeout
+  - Font family, font size, text color, highlight color
+  - Subscript and superscript
+  - Alignment: left, center, right
+  - Manual bullets and numbering
+- Full **RTL** support for Persian, Arabic, Hebrew, and other right‑to‑left languages.
+- Text scales automatically with canvas zoom.
+
+### 😀 Emoji & Symbol Insertion
+- Colorful emoji picker with true DirectWrite color rendering.
+- Emojis inserted as scalable images inside text boxes.
+- Symbol picker with Greek, math, arrows, and common symbols.
+- Custom input field: type any character or `U+code` to insert.
+
+### ✂️ Editing & Navigation
+- Cut / Copy / Paste for both slide text boxes and the old text tool.
+- Independent Undo / Redo for text edits.
+- Keyboard shortcuts:
+  - `Ctrl+]` / `Ctrl+[` — increase / decrease font size.
+  - `Ctrl+Enter` — commit slide text editing.
+  - `Escape` — cancel editing.
+  - Arrow keys — move selected text box.
+- Toolbar font controls now update to match the current selection/caret.
+
+### 🐞 Stability & Performance
+- Fixed bucket tool flood fill for both layers.
+- Fixed RTL paragraph formatting without losing character styles.
+- Fixed emoji rendering and scaling.
+- Improved slide text box copy/paste workflow.
+- Many small polish and bug fixes.
+
+### 🖼️ Dialogs & UI
+- New About dialog with version info.
+- Redesigned Symbol and Emoji pickers with larger buttons and custom insertion.
+- Better scrollbar behavior when loading projects.
+
 
 ## 🆕 What's New in Version 0.3
 
@@ -128,24 +168,35 @@ Figure 3: A snapshot of the app: DesktopDoodle, version 0.3, while showing the n
 
 | Shortcut | Action |
 |----------|--------|
-| `Ctrl+O` | Load Image |
+| `Ctrl+O` | Load Image / Project |
+| `Ctrl+S` | Save Project |
 | `Ctrl+Shift+F` | Float Selection |
 | `Ctrl+Z` | Undo |
 | `Ctrl+Y` | Redo |
 | `Ctrl+C` | Copy Selection |
 | `Ctrl+X` | Cut Selection |
 | `Ctrl+V` | Paste |
-| `Ctrl+A` | Select All |
+| `Ctrl+A` | Select All (canvas / text) |
 | `Ctrl+Shift+A` | Select Content Bounds |
 | `Delete` | Clear Selection Content |
-| `Escape` | Clear Selection |
-| `Arrow Keys` | Move Selection (1px) |
-| `Shift+Arrow` | Move Selection (10px) |
+| `Escape` | Clear Selection / Deselect Slide Text Box / Cancel Text Editing |
+| `Arrow Keys` | Move Selection (1px) / Move Active Slide Text Box |
+| `Shift+Arrow` | Move Selection (10px) / Move Slide Text Box (10px) |
 | `Ctrl+Arrow` | Rotate Selection (5°) |
 | `Ctrl+R` | Rotate Selection (90°) |
+| `Ctrl+]` | Increase Font Size (slide text) |
+| `Ctrl+[` | Decrease Font Size (slide text) |
+| `Ctrl+Enter` | Commit Slide Text Editing |
+| `Enter` | Commit Legacy Text Tool |
+| `Shift+Enter` | New Line (legacy text tool) |
+
+> **Note:**  
+> - `Ctrl+Z` / `Ctrl+Y` inside text editors affect only the text, not the canvas.  
+> - Arrow keys move the selected slide text box when it is **not** in edit mode.  
+> - `Escape` closes the active text editor or clears the selection depending on context.
 
 ---
 
 ## This archive includes the executable program: **DesktopDoodle.exe**, which is suitable for **Windows 10** and over. You should click on the executable to run.
-[Download the archive for win64](https://drive.google.com/file/d/1btcUIFOgILsymCWwXe_ivLv5oI0pDMx4/view?usp=sharing)
+[Download the archive for win64](https://drive.google.com/file/d/1v9iBiuNtlt0smNKW2Ny6u_FbPmKIBUZH/view?usp=sharing)
 ---
