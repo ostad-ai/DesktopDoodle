@@ -42,7 +42,7 @@ Figure 3: A snapshot of the app: DesktopDoodle, version 0.3, while showing the n
   - Subscript and superscript
   - Alignment: left, center, right
   - Manual bullets and numbering
-- Full **RTL** support for Persian, Arabic, Hebrew, and other right‑to‑left languages.
+- Full **RTL** support for Persian, Arabic, and other right‑to‑left languages.
 - Text scales automatically with canvas zoom.
 
 ### 😀 Emoji & Symbol Insertion
