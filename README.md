@@ -1,7 +1,7 @@
 # Desktop Doodle 🎨🖌️
-Desktop Doodle **0.5** sharpens the tools you already use and adds one long‑asked‑for export. The headline is a new **Export as Icon** command — File → Export as Icon... — that writes a proper Windows `.ico` with six sizes (16, 32, 48, 64, 128, 256), respecting the transparent‑background toggle and using the current selection (or trimming to content automatically). Text direction has been rebuilt: **LTR / RTL are now action buttons**, like Bold and Italic — they apply to the current paragraph and no longer flash the whole box on every edit. The **eraser cursor now scales with zoom**, matching the real eraser footprint, backed by an HICON cache that stays clean under rapid `Ctrl+wheel` zooming. Rounding out the release: shape picker with live preview, pattern and image fills (Repeat or Fit‑to‑Shape), transparent eraser with tolerance, and a tidier File / Edit / Canvas / Help menu.
+**Desktop Doodle 0.5a** sharpens the tools you already use and adds one long‑asked‑for export. The headline is a new **Export as Icon** command — File → Export as Icon... — that writes a proper Windows `.ico` with six sizes (16, 32, 48, 64, 128, 256), respecting the transparent‑background toggle and using the current selection (or trimming to content automatically). Text direction has been rebuilt: **LTR / RTL are now action buttons**, like Bold and Italic — they apply to the current paragraph and no longer flash the whole box on every edit. The **eraser cursor now scales with zoom**, matching the real eraser footprint, backed by an HICON cache that stays clean under rapid `Ctrl+wheel` zooming. Rounding out the release: shape picker with live preview, pattern and image fills (Repeat or Fit‑to‑Shape), transparent eraser with tolerance, and a tidier File / Edit / Canvas / Help menu.
 
- - If you have an older version of the app, update it to the latest version **0.5**.
+ - If you have an older version of the app, update it to the latest version **0.5a**.
 
 
 **Desktop Doodle** is a lightweight, offline, always‑on‑top sketchpad for Windows — it floats above your work and stays out of your way.
@@ -38,8 +38,8 @@ Figure 4: A snapshot of the app: Desktop Doodle, version 0.3, while showing the 
 Figure 5: A snapshot of the app: Desktop Doodle, version 0.4a, while showing the new slide creation tools.
 </td>
 <td>
-<img src="Media/ver-0-5.jpg" alt="A snapshot of the app: Desktop Doodle, version 0.5" width="400"/>
-Figure 6: A snapshot of the app: Desktop Doodle, version 0.5, while showing the new fill tools.
+<img src="Media/ver-0-5a.jpg" alt="A snapshot of the app: Desktop Doodle, version 0.5a" width="400"/>
+Figure 6: A snapshot of the app: Desktop Doodle, version 0.5a, while showing the new fill tools.
 </td>
 </tr>
 </table>
@@ -332,7 +332,7 @@ Figure 6: A snapshot of the app: Desktop Doodle, version 0.5, while showing the 
 ---
 
 ## This archive includes the executable program: **DesktopDoodle.exe**, which is suitable for **Windows 10** and over. You should click on the executable to run.
-[Download the archive for win64](https://drive.google.com/file/d/1skyltUSh0moKGPjYO6fmMFmpZlZn5cuP/view?usp=sharing)
+[Download the archive for win64](https://drive.google.com/file/d/1Qa63ndsSauVwwaqVrCU6OmgeMOZBJA80/view?usp=sharing)
 ---
 
 ---
