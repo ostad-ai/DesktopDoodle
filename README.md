@@ -334,3 +334,17 @@ Figure 6: A snapshot of the app: Desktop Doodle, version 0.5, while showing the 
 ## This archive includes the executable program: **DesktopDoodle.exe**, which is suitable for **Windows 10** and over. You should click on the executable to run.
 [Download the archive for win64](https://drive.google.com/file/d/1skyltUSh0moKGPjYO6fmMFmpZlZn5cuP/view?usp=sharing)
 ---
+
+---
+
+## ⭐ If You Like Desktop Doodle
+
+Desktop Doodle is a small, offline project made by one person, for the simple joy of drawing on your screen without any fuss. No accounts, no cloud, no telemetry — just a canvas.
+
+If it made your day a little easier, or if you built something with it, that already means a lot. And if you'd like to say so:
+
+- **⭐ Star the repository** — it helps other people find it.
+- **💬 Open an issue or a discussion** — bugs, ideas, or just to say hello.
+- **🐦 Share a screenshot** of what you drew or annotated — the best kind of feedback.
+
+No pressure either way. Thanks for stopping by.
