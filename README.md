@@ -1,15 +1,18 @@
 # Desktop Doodle 🎨🖌️
-Desktop Doodle **0.4a** brings a major leap in text handling and creative expression. You can now add fully editable **slide text boxes** with rich formatting — bold, italic, underline, strikeout, colors, highlights, sub/superscript, alignment, bullets, numbering, and full RTL support for Persian, Arabic, and etc. A vibrant emoji picker inserts true-color, scalable emojis directly into text, while an expanded symbol picker provides Greek letters, math symbols, and arrows. Editing is smoother with cut/copy/paste, independent undo/redo, and keyboard shortcuts like `Ctrl+]` / `Ctrl+[` for font size. The bucket tool and RTL formatting have been hardened for stability.
- - If you have the app with version 0.4, update it to the latest version 0.4a.
+Desktop Doodle **0.5** sharpens the tools you already use and adds one long‑asked‑for export. The headline is a new **Export as Icon** command — File → Export as Icon... — that writes a proper Windows `.ico` with six sizes (16, 32, 48, 64, 128, 256), respecting the transparent‑background toggle and using the current selection (or trimming to content automatically). Text direction has been rebuilt: **LTR / RTL are now action buttons**, like Bold and Italic — they apply to the current paragraph and no longer flash the whole box on every edit. The **eraser cursor now scales with zoom**, matching the real eraser footprint, backed by an HICON cache that stays clean under rapid `Ctrl+wheel` zooming. Rounding out the release: shape picker with live preview, pattern and image fills (Repeat or Fit‑to‑Shape), transparent eraser with tolerance, and a tidier File / Edit / Canvas / Help menu.
 
-**Desktop Doodle** is a lightweight, floating, always‑on‑top sketchpad for Windows.  
-Draw, erase, type text (it now supports RTL languages too), and edit images with a clean, custom‑styled interface.  
-Designed for quick notes, annotations, mockups, or just doodling over your desktop.
+ - If you have an older version of the app, update it to the latest version **0.5**.
 
-Desktop doodle works in two modes:
- - **Freehand**: just click and drag as always.
- - **Straight line**: hold `Shift` while dragging. You'll see a dashed preview, and when you release, a solid straight line is drawn from the start point to the end point.
- - This feature works with both Pen and Eraser.
+
+**Desktop Doodle** is a lightweight, offline, always‑on‑top sketchpad for Windows — it floats above your work and stays out of your way.
+
+Draw with pen or eraser. Type rich text in any language, including RTL. Insert emojis and symbols. Drop in shapes, curves, and polygons. Work on two independent layers, each with its own opacity and visibility. Fill with solid color, patterns, or images. Then export as a flattened image, a multi‑size `.ico`, or a `.doodle` project you can revisit later.
+
+Made for quick notes, live annotations, mockups, or just doodling over your desktop. Offline by design — no accounts, no cloud, no telemetry.
+
+**Two drawing modes:**
+- **Freehand** — click and drag, as always.
+- **Straight line** — hold `Shift` while dragging. A dashed preview follows the cursor; on release, a solid straight line is drawn from the start point to the end point. Works with both **Pen** and **Eraser**.
 ---
 
 <table>
@@ -34,9 +37,48 @@ Figure 4: A snapshot of the app: Desktop Doodle, version 0.3, while showing the 
 <img src="Media/ver-0-4a.jpg" alt="A snapshot of the app: Desktop Doodle, version 0.4a" width="400"/>
 Figure 5: A snapshot of the app: Desktop Doodle, version 0.4a, while showing the new slide creation tools.
 </td>
-
+<td>
+<img src="Media/ver-0-5.jpg" alt="A snapshot of the app: Desktop Doodle, version 0.5" width="400"/>
+Figure 6: A snapshot of the app: Desktop Doodle, version 0.5, while showing the new fill tools.
+</td>
 </tr>
 </table>
+
+---
+
+## 🎉 What's New in Desktop Doodle 0.5
+
+### 🖼️ Export as Icon — Native Multi-Size `.ico`
+- New: **File → Export as Icon...**
+- Writes a proper Windows `.ico` containing six sizes: **16, 32, 48, 64, 128, 256**.
+- Uses the **current selection** as the icon source, or **trims to content automatically** when nothing is selected.
+- Respects the **transparent-background toggle** — PNG frames with full alpha.
+- Letterboxes rectangular canvases into a square icon without distortion.
+
+### 🔤 Text Direction — Refined
+- **LTR / RTL are now action buttons**, like Bold and Italic — they apply to the current paragraph and keep no toggled state.
+- Removed the control-level `RightToLeft` flash that briefly flipped text on every re-entry into edit mode.
+- Per-paragraph direction is stored in the RTF (`\rtlpar` / `\ltrpar`) and survives commit, undo, and reload.
+
+### 🖌️ Eraser Cursor Scales with Zoom
+- The eraser cursor square now **grows and shrinks with the canvas zoom**, matching the actual eraser footprint.
+- Backed by an HICON cache with deferred cleanup, so rapid `Ctrl+wheel` zooming doesn't leak GDI handles.
+
+### ✏️ Shapes & Fill
+- **26 Paint-style shapes** plus free **Polygon** and **Curve**.
+- Shape picker dialog with live preview.
+- **Pattern fill** with adjustable tile size.
+- **Image fill: Repeat or Fit-to-Shape**.
+- **Transparent eraser mode** with tolerance.
+
+### 🖱️ Canvas & Navigation
+- **Pinch-to-zoom** on touchpads.
+- **Save Selection As** — export the current selection as an image.
+- Cleaner, more consistent menu system: **File / Edit / Canvas / Help**.
+
+### 🐞 Stability & Polish
+- Many small bug fixes carried over from 0.4 feedback.
+
 
 ---
 
@@ -174,37 +216,121 @@ Figure 5: A snapshot of the app: Desktop Doodle, version 0.4a, while showing the
 
 ## ⌨️ Keyboard Shortcuts
 
+### File
 | Shortcut | Action |
 |----------|--------|
+| `Ctrl+N` | New Canvas |
 | `Ctrl+O` | Load Image / Project |
 | `Ctrl+S` | Save Project |
-| `Ctrl+Shift+F` | Float Selection |
+| `Ctrl+Shift+S` | Save As |
+| `Ctrl+W` | Close to Tray |
+| `Alt+F4` | Exit |
+| `F1` | User Guide |
+| `F12` | About |
+
+### Edit
+| Shortcut | Action |
+|----------|--------|
 | `Ctrl+Z` | Undo |
 | `Ctrl+Y` | Redo |
-| `Ctrl+C` | Copy Selection |
-| `Ctrl+X` | Cut Selection |
+| `Ctrl+C` | Copy (selection / text) |
+| `Ctrl+X` | Cut (selection / text) |
 | `Ctrl+V` | Paste |
 | `Ctrl+A` | Select All (canvas / text) |
 | `Ctrl+Shift+A` | Select Content Bounds |
-| `Delete` | Clear Selection Content |
-| `Escape` | Clear Selection / Deselect Slide Text Box / Cancel Text Editing |
-| `Arrow Keys` | Move Selection (1px) / Move Active Slide Text Box |
-| `Shift+Arrow` | Move Selection (10px) / Move Slide Text Box (10px) |
+| `Delete` | Clear Selection — or Delete Active Slide Text Box |
+| `Escape` | Clear Selection / Deselect Slide Box / Cancel Text Editing |
+
+### Selection
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl+Shift+F` | Float Selection |
+| `Arrow Keys` | Move Selection (1 px) |
+| `Shift+Arrow` | Move Selection (10 px) |
 | `Ctrl+Arrow` | Rotate Selection (5°) |
 | `Ctrl+R` | Rotate Selection (90°) |
-| `Ctrl+]` | Increase Font Size (slide text) |
-| `Ctrl+[` | Decrease Font Size (slide text) |
-| `Ctrl+Enter` | Commit Slide Text Editing |
-| `Enter` | Commit Legacy Text Tool |
-| `Shift+Enter` | New Line (legacy text tool) |
 
-> **Note:**  
-> - `Ctrl+Z` / `Ctrl+Y` inside text editors affect only the text, not the canvas.  
-> - Arrow keys move the selected slide text box when it is **not** in edit mode.  
-> - `Escape` closes the active text editor or clears the selection depending on context.
+### Canvas
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl++` | Size Up |
+| `Ctrl+-` | Size Down |
+
+### Slide Text & Rich Text
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl+Enter` | Commit Editing |
+| `Escape` | Cancel Editing |
+| `Ctrl+]` | Increase Font Size |
+| `Ctrl+[` | Decrease Font Size |
+| `Arrow Keys` | Move Active Slide Text Box (1 px) |
+| `Shift+Arrow` | Move Active Slide Text Box (10 px) |
+
+### Legacy Text Tool
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl+Enter` | Commit |
+| `Escape` | Cancel |
+
+### Polygon & Curve
+| Shortcut | Action |
+|----------|--------|
+| `Enter` | Commit Polygon / Curve (Polygon needs ≥ 3 vertices; Curve needs end point placed) |
+| `Escape` | Cancel Polygon / Curve |
+| Right-click | Commit Polygon (≥ 3 vertices) / Cancel Curve |
+
+> **Note:**
+> - `Ctrl+Z` / `Ctrl+Y` inside text editors affect only the text, not the canvas.
+> - Arrow keys move the selected slide text box when it is **not** in edit mode.
+> - `Escape` closes the active text editor or clears the selection, depending on context.
+
+---
+
+## 🖱️ Mouse Actions
+
+### Drawing
+| Action | Result |
+|--------|--------|
+| Left-drag on canvas | Draw (Pen) / Erase (Eraser) |
+| `Shift` + left-drag | Straight line (dashed preview → solid on release) |
+
+### Selection
+| Action | Result |
+|--------|--------|
+| Left-drag on empty canvas (Select tool) | Start a new rectangular selection |
+| Left-drag inside selection | Move the selection |
+| Left-drag on a resize handle | Resize the selection |
+| Left-drag on the green rotation handle | Rotate the selection |
+| Click outside selection | Clear selection |
+
+### Polygon & Curve
+| Action | Result |
+|--------|--------|
+| Left-click (Polygon) | Add a vertex |
+| Right-click (Polygon) | Commit (≥ 3 vertices) or cancel |
+| Left-click (Curve) | Place start → end → control point |
+| Right-click (Curve) | Cancel |
+
+### Text Boxes — Move & Resize
+| Tool | Action | Result |
+|------|--------|--------|
+| **Legacy Text** | Right-drag on the box | Move the box |
+| **Legacy Text** | Left-drag the red grip | Resize |
+| **Persistent Slide Text** | Left-drag the **border** | Move the box (ghost drag) |
+| **Persistent Slide Text** | Left-click the body | Select / activate |
+| **Persistent Slide Text** | Double-click the box | Enter edit mode |
+| **Persistent Slide Text** | Left-drag the red grip | Resize |
+| **Transient Rich Text** | Right-drag inside the editor | Move the box (ghost drag) |
+
+### Other
+| Action | Result |
+|--------|--------|
+| Right-click with Picker tool | Pick background color (left-click picks pen color) |
+| `Ctrl` + mouse wheel | Zoom in / out |
+| Pinch on touchpad | Zoom in / out |
 
 ---
 
 ## This archive includes the executable program: **DesktopDoodle.exe**, which is suitable for **Windows 10** and over. You should click on the executable to run.
-[Download the archive for win64](https://drive.google.com/file/d/1_YIHyJ1ceUwvCHY-IMVN1ir6MotfMbeP/view?usp=sharing)
+[Download the archive for win64](https://drive.google.com/file/d/1skyltUSh0moKGPjYO6fmMFmpZlZn5cuP/view?usp=sharing)
 ---
