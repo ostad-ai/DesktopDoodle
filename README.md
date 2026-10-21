@@ -1,12 +1,13 @@
 # Desktop Doodle 🎨🖌️
-**Desktop Doodle 0.5a** sharpens the tools you already use and adds one long‑asked‑for export. The headline is a new **Export as Icon** command — File → Export as Icon... — that writes a proper Windows `.ico` with six sizes (16, 32, 48, 64, 128, 256), respecting the transparent‑background toggle and using the current selection (or trimming to content automatically). Text direction has been rebuilt: **LTR / RTL are now action buttons**, like Bold and Italic — they apply to the current paragraph and no longer flash the whole box on every edit. The **eraser cursor now scales with zoom**, matching the real eraser footprint, backed by an HICON cache that stays clean under rapid `Ctrl+wheel` zooming. Rounding out the release: shape picker with live preview, pattern and image fills (Repeat or Fit‑to‑Shape), transparent eraser with tolerance, and a tidier File / Edit / Canvas / Help menu.
 
- - If you have an older version of the app, update it to the latest version **0.5a**.
+**Desktop Doodle 0.6** is a major release focused on performance, smoothness, and reliable text editing. The headline is a new **video & audio recording pipeline** — record your presentations to MP4 with optional microphone or system audio (available in the full build). Under the hood, the capture pipeline has been moved off the UI thread, so drawing during recording is now smooth and no longer drops frames. The Pencil pen now uses Bezier curves, eliminating jagged strokes even on fast movements. Text editing received deep fixes: RTL input language and font size are preserved when pressing Enter in lists, auto-continue works reliably for bullets and numbers, and Backspace no longer resets the font. A new **Line & Paragraph Spacing** dialog gives full control over layout. Additional tools include **Paste as Fill**, **Blend Selected (Ctrl+Shift+B)**, and **Bucket Opacity**. High-DPI rendering was also fixed for 4K and scaled displays.
+
+ - If you have an older version of the app, update it to the latest version **0.6**.
 
 
 **Desktop Doodle** is a lightweight, offline, always‑on‑top sketchpad for Windows — it floats above your work and stays out of your way.
 
-Draw with pen or eraser. Type rich text in any language, including RTL. Insert emojis and symbols. Drop in shapes, curves, and polygons. Work on two independent layers, each with its own opacity and visibility. Fill with solid color, patterns, or images. Then export as a flattened image, a multi‑size `.ico`, or a `.doodle` project you can revisit later.
+Draw with pen or eraser. Type rich text in any language, including RTL. Insert emojis and symbols. Drop in shapes, curves, and polygons. Work on two independent layers, each with its own opacity and visibility. Fill with solid color, patterns, or images. Record your presentations with optional audio. Then export as a flattened image, a multi‑size `.ico`, or a `.doodle` project you can revisit later.
 
 Made for quick notes, live annotations, mockups, or just doodling over your desktop. Offline by design — no accounts, no cloud, no telemetry.
 
@@ -42,9 +43,29 @@ Figure 5: A snapshot of the app: Desktop Doodle, version 0.4a, while showing the
 Figure 6: A snapshot of the app: Desktop Doodle, version 0.5a, while showing the new fill tools.
 </td>
 </tr>
+<tr>
+<td>
+<img src="Media/ver-0-6.jpg" alt="A snapshot of the app: Desktop Doodle, version 0.6" width="400"/>
+Figure 7: A snapshot of the app: Desktop Doodle, version 0.6, while showing the new Blend method.
+</td>
+</tr>
 </table>
 
 ---
+
+## 🎉 What's New in Desktop Doodle 0.6
+
+- **🎬 Video & Audio Recording** — Record your presentation to MP4, with optional microphone and/or system audio (AAC). *(🔒 Locked in this public build.)*
+- **📏 Line & Paragraph Spacing** — A new dialog gives you full control over line height and space before/after paragraphs.
+- **🔁 Auto-continue for Lists** — Pressing Enter on a bullet or numbered line automatically creates the next one. Numbers auto-increment just like Word.
+- **🖌️ Smooth Pen Drawing** — The Pencil pen now uses Bezier curves, so fast strokes no longer look jagged.
+- **⚡ Faster Recording Pipeline** — Offloaded the capture logic to a background thread, resulting in smoother video and less UI lag.
+- **✍️ RTL/LTR Stability** — Pressing Enter in lists no longer resets your input language to English or resets the font size to 9.
+- **⌨️ Backspace Fix** — The font size is now preserved when you completely clear a text box.
+- **📋 Paste as Fill** — Paste an image directly from your clipboard to fill a shape or the active layer.
+- **🎨 Blend Selected (Ctrl+Shift+B)** — Blend a floating image smoothly into the canvas using feathering.
+- **🪣 Bucket Opacity** — The bucket tool now has an adjustable fill opacity.
+- **🖥️ DPI Mismatch Fix** — Fixed rendering issues on high-DPI displays (e.g., 150% scaling on 4K monitors).
 
 ## 🎉 What's New in Desktop Doodle 0.5
 
@@ -173,6 +194,8 @@ Figure 6: A snapshot of the app: Desktop Doodle, version 0.5a, while showing the
 
 - **Select, Move, Resize, Rotate** – Full control over selections.
 - **Cut, Copy, Paste** – With transparency support.
+- **Paste as Fill** – Paste an image directly as a fill.
+- **Blend Selected** – `Ctrl+Shift+B` blends a floating image with feathering.
 - **Select All** – `Ctrl+A` selects the entire canvas.
 - **Content-Aware Selection** – `Ctrl+Shift+A` selects only painted pixels.
 - **Arrow Keys** – Move selection by 1px (`Shift+Arrow` = 10px).
@@ -201,7 +224,9 @@ Figure 6: A snapshot of the app: Desktop Doodle, version 0.5a, while showing the
 | GIF    | ✅   | ✅   | ✅     |
 | TIFF   | ✅   | ✅   | ✅     |
 | SVG    | ❌   | ❌   | ✅     |
+| MP4    | 🔒 (Record) | ❌ | ❌ |
 
+> 🔒 MP4 recording is locked in this public build.
 
 ### 🖥️ UI Features
 
@@ -238,6 +263,8 @@ Figure 6: A snapshot of the app: Desktop Doodle, version 0.5a, while showing the
 | `Ctrl+V` | Paste |
 | `Ctrl+A` | Select All (canvas / text) |
 | `Ctrl+Shift+A` | Select Content Bounds |
+| `Ctrl+Shift+B` | Blend Selected |
+| `Ctrl+Shift+F` | Float Selection |
 | `Delete` | Clear Selection — or Delete Active Slide Text Box |
 | `Escape` | Clear Selection / Deselect Slide Box / Cancel Text Editing |
 
@@ -278,6 +305,11 @@ Figure 6: A snapshot of the app: Desktop Doodle, version 0.5a, while showing the
 | `Enter` | Commit Polygon / Curve (Polygon needs ≥ 3 vertices; Curve needs end point placed) |
 | `Escape` | Cancel Polygon / Curve |
 | Right-click | Commit Polygon (≥ 3 vertices) / Cancel Curve |
+
+### Rich Text
+| Shortcut | Action |
+|----------|--------|
+| `Right-click + Drag` | Move the Rich Text box while editing |
 
 > **Note:**
 > - `Ctrl+Z` / `Ctrl+Y` inside text editors affect only the text, not the canvas.
@@ -331,10 +363,14 @@ Figure 6: A snapshot of the app: Desktop Doodle, version 0.5a, while showing the
 
 ---
 
-## This archive includes the executable program: **DesktopDoodle.exe**, which is suitable for **Windows 10** and over. You should click on the executable to run.
-[Download the archive for win64](https://drive.google.com/file/d/1Qa63ndsSauVwwaqVrCU6OmgeMOZBJA80/view?usp=sharing)
----
+## 📥 Download
 
+Get the latest version of Desktop Doodle from the [Releases page](https://github.com/ostad-ai/DesktopDoodle/releases).
+
+- **Latest:** [v0.6](https://github.com/ostad-ai/DesktopDoodle/releases/tag/v0.6)
+- **File:** `DesktopDoodle.exe` (single-file, self-contained, no installation required)
+
+> 💡 Just download and run. No installer, no dependencies, no admin rights needed.
 ---
 
 ## ⭐ If You Like Desktop Doodle
