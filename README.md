@@ -1,6 +1,6 @@
 # Desktop Doodle 🎨🖌️
 
-**Desktop Doodle 0.6** is a major release focused on performance, smoothness, and reliable text editing. The headline is a new **video & audio recording pipeline** — record your presentations to MP4 with optional microphone or system audio (available in the full build). Under the hood, the capture pipeline has been moved off the UI thread, so drawing during recording is now smooth and no longer drops frames. The Pencil pen now uses Bezier curves, eliminating jagged strokes even on fast movements. Text editing received deep fixes: RTL input language and font size are preserved when pressing Enter in lists, auto-continue works reliably for bullets and numbers, and Backspace no longer resets the font. A new **Line & Paragraph Spacing** dialog gives full control over layout. Additional tools include **Paste as Fill**, **Blend Selected (Ctrl+Shift+B)**, and **Bucket Opacity**. High-DPI rendering was also fixed for 4K and scaled displays.
+**Desktop Doodle 0.6.1** is a major release focused on performance, smoothness, and reliable text editing. The headline is a new **video & audio recording pipeline** — record your presentations to MP4 with optional microphone or system audio (available in the full build). Under the hood, the capture pipeline has been moved off the UI thread, so drawing during recording is now smooth and no longer drops frames. The Pencil pen now uses Bezier curves, eliminating jagged strokes even on fast movements. Text editing received deep fixes: RTL input language and font size are preserved when pressing Enter in lists, auto-continue works reliably for bullets and numbers, and Backspace no longer resets the font. A new **Line & Paragraph Spacing** dialog gives full control over layout. Additional tools include **Paste as Fill**, **Blend Selected (Ctrl+Shift+B)**, and **Bucket Opacity**. High-DPI rendering was also fixed for 4K and scaled displays.
 
  - If you have an older version of the app, update it to the latest version **0.6**.
 
@@ -52,6 +52,12 @@ Figure 7: A snapshot of the app: Desktop Doodle, version 0.6, while showing the 
 </table>
 
 ---
+
+## 🩹 Patch Notes: v0.6.1
+
+- **Bucket Eraser Fix** — The "Erase (make transparent)" fill mode now correctly removes pixels when using the Bucket tool with tolerance. Previously, it would report "Made transparent" but leave the canvas unchanged. 
+- No other changes. This is a drop-in replacement for v0.6.
+
 
 ## 🎉 What's New in Desktop Doodle 0.6
 
@@ -367,7 +373,7 @@ Figure 7: A snapshot of the app: Desktop Doodle, version 0.6, while showing the 
 
 Get the latest version of Desktop Doodle from the [Releases page](https://github.com/ostad-ai/DesktopDoodle/releases).
 
-- **Latest:** [v0.6](https://github.com/ostad-ai/DesktopDoodle/releases/tag/v0.6)
+- **Latest:** [v0.6.1](https://github.com/ostad-ai/DesktopDoodle/releases/tag/v0.6.1)
 - **File:** `DesktopDoodle.exe` (single-file, self-contained, no installation required)
 
 > 💡 Just download and run. No installer, no dependencies, no admin rights needed.
