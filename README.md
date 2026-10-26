@@ -373,7 +373,7 @@ Figure 7: A snapshot of the app: Desktop Doodle, version 0.6, while showing the 
 
 Get the latest version of Desktop Doodle from the [Releases page](https://github.com/ostad-ai/DesktopDoodle/releases).
 
-- **Latest:** [v0.6.1](https://github.com/ostad-ai/DesktopDoodle/releases/tag/v0.6.1)
+- **Latest:** [v0.6.1](https://github.com/ostad-ai/DesktopDoodle/releases/tag/0.6.1)
 - **File:** `DesktopDoodle.exe` (single-file, self-contained, no installation required)
 
 > 💡 Just download and run. No installer, no dependencies, no admin rights needed.
